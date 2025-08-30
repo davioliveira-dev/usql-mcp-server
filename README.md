@@ -8,8 +8,14 @@ An MCP (Model Context Protocol) server that executes SQL queries using the usql 
 
 - Execute SELECT queries against various databases through usql
 - JSON output format for structured data
-- Support for multiple database connection strings
+- Support for multiple database connection strings (anything that is compatible with USQL)
 - Automatic usql binary download (optional and not recommended)
+
+## TODO(s)
+- [ ] Add tests for when users opt-in for dowloading the binary
+- [ ] Publish to npm registry and make it be usable just only passing `bunx usql-mcp-server` and the enviroment variables
+- [ ] Improve docs
+- [ ] Add contrib section on README.md
 
 ## Setup
 
