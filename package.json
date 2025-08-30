@@ -1,0 +1,19 @@
+{
+  "name": "usql-mcp-server",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/decompress": "^4.2.7"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "compressing": "^2.0.0",
+    "decompress": "^4.2.1",
+    "zod": "^3.23.8"
+  }
+}
