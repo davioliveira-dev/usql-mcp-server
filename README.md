@@ -9,7 +9,7 @@ An MCP (Model Context Protocol) server that executes SQL queries using the usql 
 - Execute SELECT queries against various databases through usql
 - JSON output format for structured data
 - Support for multiple database connection strings
-- Automatic usql binary download (optional)
+- Automatic usql binary download (optional and not recommended)
 
 ## Setup
 
@@ -17,6 +17,11 @@ To install dependencies:
 
 ```bash
 bun install
+```
+
+To tests
+```bash
+bun test
 ```
 
 ## Configuration
